@@ -1,0 +1,46 @@
+http://10.80.80.11:8282/prnc-app/nbc/rft-out/rcpt-acct-inq
+
+{
+    "chnlCd": "01",
+    "sndAcctNo": "000162694",
+    "sndNm": "borey1111111111111111111111111111111",
+    "rcvBkCd": "001",
+    "rcvAcctNo": "11111111111111111",
+    "crrcy": "KHR",
+    "amt": "2000"
+}
+
+http://10.80.80.11:8282/prnc-app/nbc/rft-out/acct-base-fund-txn
+
+{
+    "rcvNm": "JohnDoe",
+    "scrtKey": "bf3cef448410846196b8123e0754a9ad8a5fe9bb"
+}
+
+http://10.80.80.11:8282/prnc-app/nbc/rft-out/cncl-fund-txn
+
+{
+    "sndDt": "20200623",
+    "rcvBkCd": "001",
+    "txnUnqNo": "09620200623000001375"
+}
+
+
+http://10.80.80.11:8282/prnc-app/nbc/rft-out/fund-txn-rslt-inq
+
+{
+    "trxDate": "20200623",
+    "txnUnqNo": "09620200623000001375"
+}
+
+
+http://10.80.80.11:8282/prnc-app/nbc/rft-out/crt-pass-code
+
+{
+    "sndNm": "borey",
+    "sndPhone": "hshshs",
+    "rcvNm": "jshdhs",
+    "rcvPhone": "hshshs",
+    "crrcy": "KHR",
+    "amt": "12121"
+}
